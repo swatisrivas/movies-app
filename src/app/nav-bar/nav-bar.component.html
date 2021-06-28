@@ -1,0 +1,70 @@
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+  <a class="navbar-brand" routerLink="/movies">MovieApp</a>
+  <button
+    class="navbar-toggler d-lg-none"
+    type="button"
+    data-toggle="collapse"
+    data-target="#collapsibleNavId"
+    aria-controls="collapsibleNavId"
+    aria-expanded="false"
+    aria-label="Toggle navigation"
+  ></button>
+  <div class="collapse navbar-collapse" id="collapsibleNavId">
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+      <li class="nav-item active">
+        <a class="nav-link" routerLink="/movies"
+          >All Movies <span class="sr-only">(current)</span></a
+        >
+      </li>
+      <li class="nav-item dropdown">
+        <span
+          class="nav-link dropdown-toggle"
+          id="dropdownId"
+          data-toggle="dropdown"
+          aria-haspopup="true"
+          aria-expanded="false"
+          style="cursor: pointer"
+          >Category</span
+        >
+        <div class="dropdown-menu" aria-labelledby="dropdownId">
+          <a class="dropdown-item" href="movies/category/drama">Drama</a>
+          <a class="dropdown-item" href="movies/category/thrill">Thriller</a>
+          <a class="dropdown-item" href="movies/category/action">Action</a>
+          <a class="dropdown-item" href="movies/category/comedy">Comedy</a>
+          <a class="dropdown-item" href="movies/category/cartoon">Cartoon</a>
+          <a class="dropdown-item" href="movies/category/romance">Romance</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <span
+          class="nav-link dropdown-toggle"
+          id="dropdownId"
+          data-toggle="dropdown"
+          aria-haspopup="true"
+          aria-expanded="false"
+          style="cursor: pointer"
+          >Language</span
+        >
+        <div class="dropdown-menu" aria-labelledby="dropdownId">
+          <a class="dropdown-item" href="movies/language/hindi">Hindi</a>
+          <a class="dropdown-item" href="movies/language/english">English</a>
+          <a class="dropdown-item" href="movies/language/tamil">Tamil</a>
+        </div>
+      </li>
+    </ul>
+    <div class="form-inline my-2 my-lg-0">
+      <input
+        class="form-control mr-sm-2"
+        type="text"
+        placeholder="Search"
+        #inp
+      />
+      <button
+        class="btn btn-outline-success my-2 my-sm-0"
+        (click)="onSearch(inp.value)"
+      >
+        Search
+      </button>
+    </div>
+  </div>
+</nav>

@@ -1,0 +1,11 @@
+<div>
+  <div>
+    <app-nav-bar [filterMovies]="filterMovies"></app-nav-bar>
+  </div>
+  <div>
+    <!-- list movies -->
+    <div class="container">
+      <app-movie-card *ngFor="let movie of movies" [movie]="movie"></app-movie-card>
+    </div>
+  </div>
+</div> 

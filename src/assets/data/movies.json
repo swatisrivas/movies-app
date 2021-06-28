@@ -1,0 +1,116 @@
+{
+  "movies": [
+    {
+      "name": "ZNMD",
+      "category": "drama",
+      "language": "hindi",
+      "actors": "Hrithik Roshan, abhay doel, farhan akhtar, katrina kaif, kalki",
+      "price": "333"
+    },
+    {
+      "name": "Joker",
+      "category": "thriller",
+      "language": "tamil",
+      "actors": "Jacquin pheonix",
+      "price": "555"
+    },
+    {
+      "name": "Batman",
+      "category": "action",
+      "language": "english",
+      "actors": "Heath ledger, christian bale",
+      "price": "777"
+    },
+    {
+      "name": "Avengers",
+      "category": "action, drama",
+      "language": "english, hindi",
+      "actors": "Multi cast",
+      "price": "999"
+    },
+    {
+      "name": "Avengers 1",
+      "category": "action, drama",
+      "language": "english, hindi",
+      "actors": "unknown",
+      "price": "999"
+    },
+    {
+      "name": "Avengers Endgame",
+      "category": "action, drama",
+      "language": "english, hindi",
+      "actors": "Multi cast",
+      "price": "999"
+    },
+    {
+      "name": "Queen",
+      "category": "drama",
+      "language": "hindi",
+      "actors": "Kangana Ranaut",
+      "price": "259"
+    },
+    {
+      "name": "Remember me",
+      "category": "drama",
+      "language": "English",
+      "actors": "Rober pattinson",
+      "price": "399"
+    },
+    {
+      "name": "Titanic",
+      "category": "Romance, drama",
+      "language": "English",
+      "actors": "Leonardo, Kate winslet",
+      "price": "299"
+    },
+    {
+      "name": "Shrek",
+      "category": "cartoon, comedy",
+      "language": "English, Tamil, Hindi",
+      "actors": "Unknown",
+      "price": "329"
+    },
+    {
+      "name": "Ice age",
+      "category": "cartoon, comedy",
+      "language": "English",
+      "actors": "Unknown",
+      "price": "249"
+    },
+    {
+      "name": "Chennai Express",
+      "category": "comedy, drama",
+      "language": "hindi",
+      "actors": "Shahrukh khan, deepika padukone",
+      "price": "355"
+    },
+    {
+      "name": "Chennai Express",
+      "category": "comedy, drama",
+      "language": "hindi",
+      "actors": "Shahrukh khan, deepika padukone",
+      "price": "355"
+    },
+    {
+      "name": "The Notebook",
+      "category": "Romance",
+      "language": "English",
+      "actors": "Unknown",
+      "price": "359"
+    },
+    {
+      "name": "Koi mil gaya",
+      "category": "drama, comedy",
+      "language": "hindi",
+      "actors": "Hrithik roshan, rekha",
+      "price": "455"
+    },
+    {
+      "name": "Mujhse dosti karoge",
+      "category": "drama, comedy, romance",
+      "language": "hindi, tamil",
+      "actors": "karina kapoor, hrithik roshan, rani mukherjee",
+      "price": "155"
+    }
+  ]
+}
